@@ -143,6 +143,8 @@ spec:
         app: multus
         name: multus
     spec:
+      nodeSelector:
+        pool-type: ncx-gateway
       hostNetwork: true
       hostPID: true
       tolerations:
